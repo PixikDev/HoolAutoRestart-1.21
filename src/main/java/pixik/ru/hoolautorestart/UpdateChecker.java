@@ -14,7 +14,7 @@ import java.util.logging.Level;
 public class UpdateChecker {
 
     private final HoolAutoRestart plugin;
-    private static final String GITHUB_API_URL = "https://api.github.com/repos/yourname/autorestart-plugin/releases/latest";
+    private static final String GITHUB_API_URL = "https://api.github.com/repos/Picklobev/HoolAutoRestart-1.21/releases/latest";
     private String latestVersion;
 
     public UpdateChecker(HoolAutoRestart plugin) {

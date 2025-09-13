@@ -22,8 +22,6 @@ public class HoolAutoRestart extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new ServerListener(this), this);
 
         startUpdateChecker();
-
-        getLogger().info("AutoRestartPlugin успешно запущен!");
     }
 
     @Override
@@ -31,8 +29,6 @@ public class HoolAutoRestart extends JavaPlugin {
         if (updateCheckTask != null) {
             updateCheckTask.cancel();
         }
-
-        getLogger().info("AutoRestartPlugin отключен");
     }
 
     private void startUpdateChecker() {
