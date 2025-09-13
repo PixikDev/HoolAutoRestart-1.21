@@ -1,0 +1,6 @@
+name: HoolAutoRestart
+version: '${project.version}'
+main: pixik.ru.hoolautorestart.HoolAutoRestart
+api-version: '1.21'
+author: PixikDev
+description: Plugin for automatic server restart
